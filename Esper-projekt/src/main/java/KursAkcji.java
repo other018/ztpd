@@ -35,6 +35,10 @@ public class KursAkcji {
 				+ "]";
 	}
 
+	public static Boolean roznicaKursow(Float kursOtwarcia, Float kursZamkniecia) {
+		return kursZamkniecia > kursOtwarcia;
+	}
+
 	public String getSpolka() {
 		return spolka;
 	}
