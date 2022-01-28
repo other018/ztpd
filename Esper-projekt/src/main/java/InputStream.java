@@ -16,8 +16,11 @@ import java.util.Date;
 
 public class InputStream {
 
-    private static final String DATA_ROZPOCZECIA = "2001-09-05";
-    private static final String DATA_ZAKONCZENIA = "2001-09-20";
+//    private static final String DATA_ROZPOCZECIA = "2001-09-05";
+//    private static final String DATA_ZAKONCZENIA = "2001-09-20";
+
+    private static final String DATA_ROZPOCZECIA = "2001-01-01";
+    private static final String DATA_ZAKONCZENIA = "2011-01-03";
 
     private static final int LICZBA_PLIKOW = 12;
     private static final int MAX_LICZBA_BLEDOW = 5;

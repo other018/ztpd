@@ -35,6 +35,12 @@ public class KursAkcji {
 				+ "]";
 	}
 
+	public static int getDayOfYear(Date data) {
+		Calendar ca1 = Calendar.getInstance();
+		ca1.setTime(data);
+		return ca1.get(Calendar.DAY_OF_YEAR);
+	}
+
 	public static Boolean roznicaKursow(Float kursOtwarcia, Float kursZamkniecia) {
 		return kursZamkniecia > kursOtwarcia;
 	}
